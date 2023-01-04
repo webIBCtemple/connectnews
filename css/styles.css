@@ -1,0 +1,311 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+li {
+  font-family: "lato";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 4%;
+}
+
+h4 {
+  font-family: "lato";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h5 {
+  font-family: "lato";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h1, h2, h3, h6 {
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+
+p {
+    color: #8f8f8f
+}
+
+em {
+  padding: 10px;
+}
+
+
+#logo .ibc-logo {
+  padding-top: 40px;
+}
+/* navigation bar */
+/* 
+.navbar {
+  padding: 3%;
+  } */
+
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2rem;
+  
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat"
+  }
+
+
+  .section-logo {
+    margin: 0;
+  }
+/* Title image */
+
+.title-image {
+ width: 60%;
+ margin-left: 35%;
+ border-radius: 100%;
+}
+
+.devotional-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* #title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 5%;
+} */
+
+.colorred-section {
+  background-color: #87805E;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #EDDFB3;
+}
+
+.devotional-container {
+  padding: 3% 15% 5%;
+  text-align: left;
+}
+
+/* Events section */
+
+#events  {
+  background-color: #B09B71;
+}
+
+.events-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.events-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #EDDFB3
+}
+
+/* youth ministry */
+
+.youth-color {
+  background-color: #EDDFB3;
+  color: #fff;
+}
+.youth-image {
+  width: 90%;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+#youth-carousel .carousel-inner {
+  margin-top: 40px
+}
+
+.youth-text {
+  margin-top: 15px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #87805E
+}
+
+.carousel-youth-image {
+  border-radius: 100%;
+  width: 20%;
+}
+
+/* children ministry */
+
+.children-color {
+  background-color: #B09B71;
+  color: #fff;
+}
+
+.children-image {
+  width: 90%;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+.children-text {
+  margin: 15px 0px 10px 0px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #EDDFB3
+}
+
+#children-carousel .carousel-inner {
+  margin-top: 40px
+}
+
+/* Worship Ministry */
+
+.worship-color {
+  background-color: #EDDFB3;
+  color: #fff;
+}
+
+.worship-image {
+  width: 90%;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+.worship-text {
+  margin-top: 15px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #87805E
+}
+
+#worship-carousel .carousel-inner {
+  margin-top: 40px
+}
+
+.button-color {
+  color: #CE9461
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  /* height: 50px;
+  width: 50px; */
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black; */
+}
+
+/* Women Bible Study */
+
+
+.wbs-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #CE9461;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #DEA057;
+}
+
+.wbs-title {
+  font-size: 1.5rem
+}
+
+.wbs-section {
+ background-color: #FFF8EA;
+
+}
+
+.wbs-image {
+  width: 30%;
+  border-radius: 100%;
+}
+
+/* OCC */
+
+.occ-section {
+  text-align: center;
+  background-color: #B09B71;
+}
+
+.occ-text {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.occ-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+  
+}
+
+.occ-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #EDDFB3;
+}
+
+/* CDC section */
+
+.cdc-section {
+  text-align: left;
+  background-color: #EDDFB3;
+}
+
+.cdc-image {
+  width: 30%;
+  margin-left: 450px;
+  padding-bottom: 3%;
+}
+
+/* footer */
+
+.social-icon {
+  width: 10%
+}
+
+
+/* download section */
+.download-button {
+  margin: 5% 0% 5% 0;
+}
+
+.app-section{
+  background-color: #87805E;
+}
