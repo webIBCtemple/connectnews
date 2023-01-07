@@ -41,7 +41,10 @@ h1, h2, h3, h6 {
   }
 
 p {
-    color: #8f8f8f
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "lato";
 }
 
 em {
@@ -138,9 +141,9 @@ em {
   color: #fff;
 }
 .youth-image {
-  width: 90%;
+  width: 200px;
   border-radius: 100%;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 #youth-carousel .carousel-inner {
@@ -167,9 +170,9 @@ em {
 }
 
 .children-image {
-  width: 90%;
+  width: 200px;
   border-radius: 100%;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .children-text {
@@ -191,9 +194,9 @@ em {
 }
 
 .worship-image {
-  width: 90%;
+  width: 200px;
   border-radius: 100%;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .worship-text {
