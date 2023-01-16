@@ -103,12 +103,17 @@ em {
 } */
 
 .colorred-section {
-  background-color: #87805E;
+  background-color: #E38B29;
+  color: #1A120B;
+}
+
+.logo-section {
+  /* background-color: #E38B29; */
   color: #fff;
 }
 
 .white-section {
-  background-color: #EDDFB3;
+  background-color: #FDEEDC;
 }
 
 .devotional-container {
@@ -119,7 +124,7 @@ em {
 /* Events section */
 
 #events  {
-  background-color: #B09B71;
+  background-color: #FFD8A9;
 }
 
 .events-image {
@@ -131,13 +136,13 @@ em {
 .events-text {
   font-size: 3rem;
   line-height: 1.5;
-  color: #EDDFB3
+  color: #1A120B
 }
 
 /* youth ministry */
 
 .youth-color {
-  background-color: #EDDFB3;
+  background-color: #F1A661;
   color: #fff;
 }
 .youth-image {
@@ -154,7 +159,7 @@ em {
   margin-top: 15px;
   font-size: 3rem;
   line-height: 1.5;
-  color: #87805E
+  color: #1A120B
 }
 
 .carousel-youth-image {
@@ -165,8 +170,8 @@ em {
 /* children ministry */
 
 .children-color {
-  background-color: #B09B71;
-  color: #fff;
+  background-color: #FFD8A9;
+  color: #1A120B;
 }
 
 .children-image {
@@ -179,7 +184,7 @@ em {
   margin: 15px 0px 10px 0px;
   font-size: 3rem;
   line-height: 1.5;
-  color: #EDDFB3
+  color: #1A120B
 }
 
 #children-carousel .carousel-inner {
@@ -189,7 +194,7 @@ em {
 /* Worship Ministry */
 
 .worship-color {
-  background-color: #EDDFB3;
+  background-color: #F1A661;
   color: #fff;
 }
 
@@ -203,7 +208,7 @@ em {
   margin-top: 15px;
   font-size: 3rem;
   line-height: 1.5;
-  color: #87805E
+  color: #1A120B
 }
 
 #worship-carousel .carousel-inner {
@@ -232,7 +237,7 @@ em {
 }
 
 .icon {
-  color: #CE9461;
+  color: #FDEEDC;
   margin-bottom: 1rem;
 }
 
@@ -258,7 +263,7 @@ em {
 
 .occ-section {
   text-align: center;
-  background-color: #B09B71;
+  background-color: #FFD8A9;
 }
 
 .occ-text {
@@ -281,14 +286,14 @@ em {
 }
 
 .card {
-  background-color: #EDDFB3;
+  background-color: #FDEEDC;
 }
 
 /* CDC section */
 
 .cdc-section {
   text-align: left;
-  background-color: #EDDFB3;
+  background-color: #FDEEDC;
 }
 
 .cdc-image {
@@ -310,5 +315,9 @@ em {
 }
 
 .app-section{
-  background-color: #87805E;
+  background-color: #E38B29;
+}
+
+.footer-section {
+  background-color: #FDEEDC;
 }
