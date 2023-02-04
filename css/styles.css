@@ -292,14 +292,23 @@ em {
 /* CDC section */
 
 .cdc-section {
-  text-align: left;
+  text-align: center;
   background-color: #FDEEDC;
 }
 
 .cdc-image {
   width: 30%;
-  margin-left: 450px;
+  /* margin-left: 450px; */
   padding-bottom: 3%;
+}
+
+.cdcimage {
+  width: 50%;
+}
+
+.cdc-title {
+  font-family: "lato";
+  font-size: 1.2rem;
 }
 
 /* footer */
