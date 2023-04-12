@@ -3,398 +3,419 @@ body {
     text-align: center;
 }
 
-li {
-  font-family: "lato";
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-style: italic;
+h2 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3.5rem;
-  line-height: 1.5;
+  font-family: "Montserrat";
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 h3 {
+  font-family: "Montserrat";
   font-size: 1.5rem;
-  line-height: 1.5;
-  padding: 4%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
 }
-
-h4 {
-  font-family: "lato";
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-style: italic;
-}
-
-h5 {
-  font-family: "lato";
-  font-size: 2rem;
-  line-height: 1.5;
-  font-style: italic;
-}
-
-h1, h2, h3, h6 {
-    font-family: "Montserrat";
-    font-weight: bold;
-  }
 
 p {
-  color: black;
-  font-size: 1rem;
-  font-weight: bold;
-  font-family: "lato";
-}
-
-em {
-  padding: 10px;
-}
-
-
-#logo .ibc-logo {
-  padding-top: 40px;
-}
-/* navigation bar */
-/* 
-.navbar {
-  padding: 3%;
-  } */
-
-  .navbar-brand {
-    font-family: Ubuntu;
-    font-size: 2rem;
-  
-  }
-  .nav-item {
-    padding: 0 18px;
-  }
-  .nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat"
-  }
-
-
-  .section-logo {
-    margin: 0;
-  }
-/* Title image */
-
-.title-image {
- width: 60%;
- margin-left: 35%;
- border-radius: 100%;
-}
-
-.devotional-image {
-  width: 10%;
-  border-radius: 100%;
-}
-
-/* containers */
-
-.container-fluid {
-  padding: 2% 15%;
-}
-
-/* #title .container-fluid {
-  text-align: left;
-  padding: 3% 15% 5%;
-} */
-
-.colorred-section {
-  background-color: #E38B29;
-  color: #1A120B;
-}
-
-.logo-section {
-  /* background-color: #E38B29; */
-  color: #fff;
-}
-
-.white-section {
-  background-color: #FDEEDC;
-}
-
-.devotional-container {
-  padding: 3% 15% 5%;
-  text-align: left;
-}
-
-/* Events section */
-
-#events  {
-  background-color: #FFD8A9;
-}
-
-.events-image {
-  width: 12%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-.events-text {
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #1A120B
-}
-
-/* youth ministry */
-
-.youth-color {
-  background-color: #F1A661;
-  color: #fff;
-}
-.youth-image {
-  width: 200px;
-  border-radius: 100%;
-  margin-top: 50px;
-}
-
-#youth-carousel .carousel-inner {
-  margin-top: 40px
-}
-
-.youth-text {
-  margin-top: 15px;
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #1A120B
-}
-
-.carousel-youth-image {
-  border-radius: 100%;
-  width: 20%;
-}
-
-/* children ministry */
-
-.children-color {
-  background-color: #FFD8A9;
-  color: #1A120B;
-}
-
-.children-image {
-  width: 200px;
-  border-radius: 100%;
-  margin-top: 50px;
-}
-
-.children-text {
-  margin: 15px 0px 10px 0px;
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #1A120B
-}
-
-#children-carousel .carousel-inner {
-  margin-top: 40px
-}
-
-/* Worship Ministry */
-
-.worship-color {
-  background-color: #F1A661;
-  color: #fff;
-}
-
-.worship-image {
-  width: 200px;
-  border-radius: 100%;
-  margin-top: 50px;
-}
-
-.worship-text {
-  margin-top: 15px;
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #1A120B
-}
-
-#worship-carousel .carousel-inner {
-  margin-top: 40px
-}
-
-.button-color {
-  color: #CE9461
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  /* height: 50px;
-  width: 50px; */
-  outline: black;
-  background-color: rgba(0, 0, 0, 0.3);
-  /* background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black; */
-}
-
-/* Women Bible Study */
-
-
-.wbs-box {
-  padding: 5%;
-}
-
-.icon {
-  color: #FDEEDC;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #DEA057;
-}
-
-.wbs-title {
-  font-size: 1.5rem
-}
-
-.wbs-section {
- background-color: #FFF8EA;
-
-}
-
-.wbs-image {
-  width: 30%;
-  border-radius: 100%;
-}
-
-/* OCC */
-
-.occ-section {
-  text-align: center;
-  background-color: #FFD8A9;
-}
-
-.occ-text {
-  font-size: 1.5rem;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: bold;
-}
-
-.occ-image {
-  width: 20%;
-  border-radius: 100%;
-  margin: 20px;
-  
-}
-
-.occ-box {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.card {
-  background-color: #FDEEDC;
-}
-
-/* CDC section */
-
-.cdc-section {
-  text-align: center;
-  background-color: #FDEEDC;
-}
-
-.cdc-image {
-  width: 30%;
-  /* margin-left: 450px; */
-  padding-bottom: 3%;
-}
-
-.cdcimage {
-  width: 50%;
-}
-
-.cdc-title {
   font-family: "lato";
   font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-/* footer */
-
-.social-icon {
-  width: 10%
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-
-/* download section */
-.download-button {
-  margin: 5% 0% 5% 0;
-}
-
-.app-section{
-  background-color: #E38B29;
-}
-
-.footer-section {
-  background-color: #FDEEDC;
-}
-
 
 header {
   position: relative;
-  background-color: black;
-  height: 75vh;
-  min-height: 25rem;
-  width: 100%;
+  height: 100vh;
+  background-color: rgba(17, 15, 15, 0.156);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  box-sizing: border-box;
   overflow: hidden;
 }
 
-header video {
+video {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  opacity: 1.8;
 }
 
-header .container {
-  position: relative;
-  z-index: 2;
+/* CSS for nav bar */
+nav .logo {
+  width: 192;
 }
 
-header .overlay {
+nav {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00000075;
 }
 
-/* Media Query for devices withi coarse pointers and no hover functionality */
-
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-
-  header video {
-    display: none;
-  }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.display-3 {
-  font-family: "Montserrat";
-  font-size: 5rem;
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-.lead{
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* CSS for title */
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 3rem;
-  font-family: "lato";
-  color:#FFF8EA;
-  
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #000;
+}
+
+/* Devotional */
+.white-section {
+  background-color: #567189;
+  padding: 100px 0;
+}
+
+.devotional-image {
+  border-radius: 100%;
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 5 auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.755);
+}
+
+
+@media (max-width: 767px) {
+  .main-container {
+      flex-direction: column;
+  }
+
+  .main-container h2 {
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+  }
+
+  .devotional-image {
+      margin-bottom: 30px;
+  }
+}
+
+/* Church events */
+.events-card {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.church-section {
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+.church-image {
+  border-radius: 50%;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 150 0;
+  box-shadow: 0 0 40px rgba(17, 16, 16, 0.799);
+
+}
+
+
+@media (max-width: 767px) {
+
+  .church-image {
+      margin-top: 30px;
+  }
+}
+
+
+/* Youth minister */
+.youth-card {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.youth-section {
+  background-color: #567189;
+  padding: 90px 0;
+}
+
+
+
+.youth-image {
+  border-radius: 50%;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 150;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.837);
+
+}
+
+@media (max-width: 767px) {
+
+  .youth-image {
+      margin-top: 30px;
+  }
+}
+
+/* Children minister */
+.children-card {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.kid-section {
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+
+.kid-image {
+  border-radius: 50%;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 200 30;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.837);
+
+}
+
+
+@media (max-width: 767px) {
+
+  .kid-image {
+      margin-bottom: 20px;
+  }
+}
+
+/* Card section */
+
+.card-section {
+  background-color: #567189;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.574);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: azure;
+}
+
+.card img {
+  border-radius: 100%;
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 80 auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.632);
+}
+
+
+
+@media (max-width: 767px) {
+  .card-container {
+      flex-direction: column;
+  }
+
+  .card-container h2 {
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-align: center;
+  }
+
+  .card-image {
+      margin-bottom: 20px;
+  }
+}
+
+/* OCC section */
+.OCC-section {
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+
+
+.occ-image {
+  border-radius: 10%;
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  box-shadow: 0 0 40px rgba(17, 16, 16, 0.799);
+
+
+}
+
+
+@media (max-width: 767px) {
+
+  .occ-image {
+      margin-top: 30px;
+  }
+}
+
+/* CDC section */
+.cdc-section {
+  background-color: #567189;
+  padding: 20px 0;
+}
+
+
+
+.cdc-image {
+  border-radius: 10%;
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  box-shadow: 0 0 40px rgba(17, 16, 16, 0.799);
+  background-color: #fff;
+
+}
+
+
+
+@media (max-width: 767px) {
+  .main-container p {
+      color: #fff
+  }
+
+  .cdc-image {
+      margin-top: 30px;
+  }
+}
+
+/* footer */
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+
+
+.main-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.specific-color {
+  color: #fff;
 }
