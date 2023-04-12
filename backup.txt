@@ -1,0 +1,899 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>IBCNEWS</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c401066053.js" crossorigin="anonymous"></script>
+    <!-- CSS Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Merriweather+Sans&family=Montserrat:wght@100;400;700;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="colorred-section" id="title">
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">
+                    <img class="logoimg" src="images/ibclogo.png" alt="Logo" width="192" height="60" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bar1top" aria-controls="bar1top" aria-expanded="false" aria-lable="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bar1top">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.ibctemple.org/" target="_blank">Web</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#app-download">App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.ibctemple.org/contact" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </section>        
+
+    <header>
+      <div class="overlay"></div>
+
+      <!-- The HTML5 video element that will create the background video on the header -->
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="images/Video Open Website Home.mp4" type="video/mp4">
+      </video>
+    
+      <!-- The header content -->
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">CONNECT NEWS</h1>
+            <p class="lead mb-0">In Jesus, WE LOVE, CONNECT, GROW</p>
+            <p class="lead mb-0">March 2023</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- <section class="logo-section" id="logo">
+
+      <div style="background-image: url(images/church3.jpg);">
+        <div class="container-fluid">
+            <h1 class="ibc-logo">CONNECT NEWS</h1>
+            <h5>January 2023</h5>
+
+            <h3>
+            In Jesus we LOVE, CONNECT, GROW
+            </h3>
+        </div>
+      </div>
+      
+    </section>   -->
+      
+      <!-- <div class="row">
+                
+        <div class="col-lg-6">
+            <h1>IBC</h1>
+            <h1>Newsletter</h1>
+            <h4>The mission of Immanuel Baptist Church - is the same mission Jesus gave his followers: Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit. </h4>
+        </div>
+
+        <div class="col-lg-6">
+            <img class="title-image" src="images/church2.png" alt="church-pic">
+        </div>
+
+      </div> -->
+
+    <!-- Devotional -->
+    <section class="white-section" id="devotional">
+        <div class="devotional-container">
+          <img class="devotional-image" src="images/pastor prof.png" alt="pastor">
+            <!-- <h1>Devotional</h1> -->
+            <h2>Pastor Ron Milne</h2>
+            <h4>I have a simple challenge for you for the month of March – 
+              have a coffee or lunch with someone that you don’t know about their spiritual condition and as part of getting 
+              to know him/her ask about their religious background or where they are spiritually. 
+              Explain that you feel God wants you to pray for them at least once a week and ask 
+              if there are any specific needs for which you could be praying. Occasionally 
+              touch base to see if there are updates or to seek new prayer requests.
+            </h4>
+            
+            <h4>Our goal is to not just consider people from a physical standpoint, but to care about each one spiritually. 
+              Many people around you have no one that is regularly praying for them. 
+              I think God wants you to be that person. God wants to work through you to touch people, 
+              and God may choose to answer prayers in a specific way so 
+              that your friend will know that God is active and cares for her/him.
+            </h4>
+        </div>
+    </section>
+
+    <!-- Events -->
+
+  <section class="colorred-section" id="events">
+      <h1>Church Events</h1>
+
+    <div id="events-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="events-text">Sunday Morning Services</h2>
+          <h5>10:30 am - New Series on Ephesians</h5>
+          <h5>"Your Identity in Christ"</h5>
+          <!-- <img class="events-image" src="images/new year.png" alt="newyear">  -->
+
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="events-text">New Discipleship Program</h2>
+          <h5>Wednesday, 6 pm - Parlor</h5>
+          <h5>The Master Plan of Evangelism</h5>
+          <!-- <img class="events-image" src="images/share_gospel.png" alt="biblestudy"> -->
+
+        </div>
+
+        <div class="carousel-item container-fluid">
+            <h2 class="events-text">National Reading Month</h2>
+            <h5>Guest Readers for the CDC Children</h5>
+            <h5>Wednesday from 10-11 am</h5>
+            <!-- <img class="events-image" src="images/home_group.png" alt="homegroup"> -->
+            
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="events-text">Annie Armstrong</h2>
+          <h5>Easter Offering</h5>
+          <h4>Week of Prayer: March 5 - March 12</h4>
+          <!-- <img class="events-image" src="images/library.png" alt="library"> -->
+            
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#events-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+          
+        <button class="carousel-control-next" type="button" data-bs-target="#events-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+
+      </div>    
+      
+    </div>
+
+
+  </section>
+
+
+<!-- Youth Ministry -->
+  <section class="youth-color" id="youth">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5">
+          <img class="youth-image" src="images/youth.png" alt="youth-logo">
+        </div>
+        
+        <div class="col-lg-7">
+      
+          <div id="youth-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <h2 class="youth-text">Bible Study</h2>
+                <h5>Sunday mornings at 9:15 am & Wednesdays at 6 pm</h5>
+                <h4>Family Life Center</h4>  
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="youth-text">D-Now</h2>
+                <h5>March 3 & 4</h5>
+                <h4>The Way D-Now at UMHB</h4>
+              </div>
+
+              <div class="carousel-item container-fluid">
+                  <h2 class="youth-text">Youth Work Day</h2>
+                  <h5>March 11, 9 am</h5>
+                  <h4>We will be separating items for the garage sale and pricing them.</h4>
+              </div>
+
+                <div class="carousel-item container-fluid">
+                  <h2 class="youth-text">Week of Spring Break Activities</h2>
+                  <h5>March 13-17</h5>
+                  <h4>Bowling, Game Night, Movie Night, Guys and Girls night.</h4>
+                </div>
+
+                <div class="carousel-item container-fluid">
+                  <h2 class="youth-text">Youth Lock-in</h2>
+                  <h5>March 24</h5>
+                  <h4>Set up for garage sale</h4>
+                </div>
+
+                <div class="carousel-item container-fluid">
+                  <h2 class="youth-text">Garage Sale</h2>
+                  <h5>March 25, 8am - 12pm</h5>
+                  <h4>FLC</h4>
+                </div>
+
+                <div class="carousel-item container-fluid">
+                  <h2 class="youth-text">Questions?</h2>
+                  <h5>Contact Pastor Brandon Kemp</h5>
+                  <h4>bkemp@ibctemple.org</h4> 
+                </div>
+                
+                <button class="button-color carousel-control-prev" type="button" data-bs-target="#youth-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  
+                </button>
+  
+                <button class="button-color carousel-control-next" type="button" data-bs-target="#youth-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Children Ministry -->
+
+  <section class="children-color" id="children">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5">
+          <img class="children-image" src="images/kids.png" alt="children-logo">
+        </div>
+
+        <div class="col-lg-7">
+          <div id="children-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <h2 class="children-text">Kids Ministry</h2>
+                <h5>Sunday and Wednesday</h5>
+                <h4>Join us for Children's Bible Study</h4>  
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="children-text">Good News Club</h2>
+                <h5>March 20, Last day</h5>
+                <h4>We had a great semester!!!</h4>
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="children-text">Awana Clubs</h2>
+                <h5>Sundays at 4:30 - 6 pm</h5>
+                <h4>Family Life Center</h4>
+              </div>
+
+                <div class="carousel-item container-fluid">
+                  <h2 class="children-text">Questions?</h2>
+                  <h5>Contact Alissa Griego</h5>
+                  <h4>agriego@ibctemple.org</h4> 
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#children-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  
+                </button>
+  
+                <button class="carousel-control-next" type="button" data-bs-target="#children-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+        </div>
+          
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Worship Ministry -->
+  <section class="worship-color" id="worship">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5">
+          <img class="worship-image" src="images/musicmin.png" alt="children-logo">
+        </div>
+
+        <div class="col-lg-7">
+          <div id="worship-carousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <h2 class="worship-text">Adult Choir</h2>
+                <h5>Wednesdays at 7pm</h5>
+                <h4>Choir Room</h4>  
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="worship-text">Music Makers</h2>
+                <h5>Wednesdays at 6pm</h5>
+                <h4>Main Building, Room 216.</h4>
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="worship-text">AV/Sound Training</h2>
+                <h5>March 26, 2:30pm, Sanctuary</h5>
+                <h4>So, if you're looking to improve your skills and expand your knowledge in the world of audiovisual technology, 
+                  be sure to join us for this exciting training session. Mark your calendar 
+                  for March 26th at 2:30 pm and contact us to reserve your spot today!</h4>
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="worship-text">Choir Retreat</h2>
+                <h5>March 19th, 1 pm</h5>
+                <h4>"Join the Immanuel Baptist Church Adult Choir as we prepare to celebrate the resurrection of our Lord this Easter season! 
+                  Whether you have a passion for singing or simply enjoy being part of a supportive community,
+                   we invite you to come share your gifts with us."</h4>
+              </div>
+
+              <div class="carousel-item container-fluid">
+                <h2 class="worship-text">Questions?</h2>
+                <h5>Contact Leo Barros</h5>
+                <h4>lbarros@ibctemple.org</h4> 
+              </div>  
+            
+              <button class="button-color carousel-control-prev" type="button" data-bs-target="#worship-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+              </button>
+
+              <button class="button-color carousel-control-next" type="button" data-bs-target="#worship-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+          </div>
+
+        </div>    
+      </div>
+    </div>
+
+  </section>
+
+    <!-- Women Bible Study -->
+
+  <section class="wbs-section" id="wbs">
+    <div class="container-fluid">
+      <div class="row">
+        <h1>Women's Bible Study</h1>
+
+        <div class="wbs-box col-lg-4">
+          <img class="wbs-image" src="images/women1.png" alt="">
+          <!-- <i class="icon fa-solid fa-church fa-4x"></i> -->
+          <h3 class="wbs-title">Sunday</h3>
+          <p>9:15 am - Fellowship Hall, Room 110<br>Sylvia White and Elizabeth Milne, leaders</p>
+        </div>
+
+        <div class="wbs-box col-lg-4">
+          <img class="wbs-image" src="images/women2.png" alt="">
+          <!-- <i class="icon fa-solid fa-phone fa-4x"></i> -->
+          <h3 class="wbs-title">Tuesday</h3>
+          <p>8:45 am - Parlor<br> Diane Crews, leader</p>
+        </div>
+
+        <div class="wbs-box col-lg-4">
+          <img class="wbs-image" src="images/women3.png" alt="">
+          <!-- <i class="icon fa-solid fa-city fa-4x"></i> -->
+          <h3 class="wbs-title">Wednesday</h3>
+          <p>6 pm - Fellowship Hall, Room 110<br>Shirl Whiteman and Roxanne Stryke, leaders</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="occ-section" id="occ">
+    <div class="container-fluid">
+      <img class="occ-image" src="images/OCC.png" alt="occ">
+      <em class="occ-text">Operation Christmas Child</em>
+      <h4>
+        We send the light of the World into the darkest places in the world with shoeboxes. Two children a week are impacted by one shoebox donated. 
+        Please pray about what you can do this year and help with the TX/LA goal of 860,000 boxes. 
+        For 2022 the TX/LA count was 820,198 and Worldwide 10,599,907. 
+      </h4>
+      <h4>
+        I have tickets to Silver Dollar City from 2022. Please contact Cathy Scribner 
+        if you are interested 254-624-0926. First come, first serve. These tickets are for "full" fare to the park.
+      </h4>
+      <div class="row">
+        <div class="occ-box col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h2>Donation Needed:</h2>
+              <li>Wash Cloths</li>
+              <li>Soap</li>
+              <li>School Supplies</li>
+              <li>Hats</li>
+              <li>Coloring Books</li>
+              <li>Small Games</li>
+              <li>Stuffed Animals</li>
+              <li>We can even use cotton yarn and material to make items.</li>
+            </div>
+          </div>
+        </div>
+        
+        <div class="occ-box col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h1>Note:</h1>
+              <h4>Craft Day: Every Tuesday from 9:00 am-12:00 pm in the OCC House
+                Saturdays: March 11 from 9:00 am-12:00 pm</h4>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+  </section>
+
+  <section class="cdc-section" id="cdc">
+    <div class="container-fluid">
+      <img class="cdc-image" src="images/cdc.png" alt="occlogo">
+      <div>
+        <H4>
+          Can you believe Spring is almost here? After a few setbacks in February, 
+          including ice, downed limbs/trees, and illness, we hope March is sunny and bright! 
+          We had a goal to be through with our BIG clean-out by the end of February, and we are almost done! YAAY! 
+        </H4>
+        <h4>
+          Next, we will focus on our gym and kitchen areas. 
+          Also, in March, we are praying to open two new classrooms, a Gross Motor Room for our toddlers, 
+          and revamp the Staff Breakroom! Please pray that we can accomplish these goals! 
+        </h4>
+        <h4>
+          Finally, the CDC would like to publicly welcome our new Committee Members. 
+          We are grateful to have you and will be meeting soon!
+          Nicki Luther
+        </h4>
+      </div>
+       
+
+        
+
+    </div>
+  </section>
+
+  <!-- download section -->
+
+  <section class="app-section" id="app-download">
+    <div class="container-fluid">
+      <h2>Connect with us!</h2>
+      <h6>Download the app</h6>
+      <a href="https://apps.apple.com/in/app/immanuel-baptist/id1579598644" target="_blank">
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_T3NR53&hl=en_US&gl=US" target="_blank">
+        <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer-section" id="footer">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/ibctemple" target="_blank">
+        <i type="button" class="social-icon fa-brands fa-facebook"></i>
+      </a>
+      
+      <!-- <i type="button" class="social-icon fa-brands fa-twitter"></i> -->
+      <!-- <i type="button" class="social-icon fa-brands fa-instagram"></i> -->
+      <a href="https://www.ibctemple.org/contact" target="_blank">
+        <i type="button" class="social-icon fa-solid fa-envelope"></i>
+      </a>
+      
+    </div>  
+      <p>© Copyright Immanuel Baptist Church</p>
+  </footer>
+
+</body>
+
+</html>
+
+<!-- <a class="footer-link" href="https://www.facebook.com/leo.cunha.94849410" target="_blank"></a> -->
+
+
+
+li {
+  font-family: "lato";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 4%;
+}
+
+h4 {
+  font-family: "lato";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h5 {
+  font-family: "lato";
+  font-size: 2rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+h1, h2, h3, h6 {
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+
+p {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "lato";
+}
+
+em {
+  padding: 10px;
+}
+
+
+#logo .ibc-logo {
+  padding-top: 40px;
+}
+/* navigation bar */
+/* 
+.navbar {
+  padding: 3%;
+  } */
+
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2rem;
+  
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat"
+  }
+
+
+  .section-logo {
+    margin: 0;
+  }
+/* Title image */
+
+.title-image {
+ width: 60%;
+ margin-left: 35%;
+ border-radius: 100%;
+}
+
+.devotional-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* #title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 5%;
+} */
+
+.colorred-section {
+  background-color: #E38B29;
+  color: #1A120B;
+}
+
+.logo-section {
+  /* background-color: #E38B29; */
+  color: #fff;
+}
+
+.white-section {
+  background-color: #FDEEDC;
+}
+
+.devotional-container {
+  padding: 3% 15% 5%;
+  text-align: left;
+}
+
+/* Events section */
+
+#events  {
+  background-color: #FFD8A9;
+}
+
+.events-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.events-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #1A120B
+}
+
+/* youth ministry */
+
+.youth-color {
+  background-color: #F1A661;
+  color: #fff;
+}
+.youth-image {
+  width: 200px;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+#youth-carousel .carousel-inner {
+  margin-top: 40px
+}
+
+.youth-text {
+  margin-top: 15px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #1A120B
+}
+
+.carousel-youth-image {
+  border-radius: 100%;
+  width: 20%;
+}
+
+/* children ministry */
+
+.children-color {
+  background-color: #FFD8A9;
+  color: #1A120B;
+}
+
+.children-image {
+  width: 200px;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+.children-text {
+  margin: 15px 0px 10px 0px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #1A120B
+}
+
+#children-carousel .carousel-inner {
+  margin-top: 40px
+}
+
+/* Worship Ministry */
+
+.worship-color {
+  background-color: #F1A661;
+  color: #fff;
+}
+
+.worship-image {
+  width: 200px;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+.worship-text {
+  margin-top: 15px;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #1A120B
+}
+
+#worship-carousel .carousel-inner {
+  margin-top: 40px
+}
+
+.button-color {
+  color: #CE9461
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  /* height: 50px;
+  width: 50px; */
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black; */
+}
+
+/* Women Bible Study */
+
+
+.wbs-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #FDEEDC;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #DEA057;
+}
+
+.wbs-title {
+  font-size: 1.5rem
+}
+
+.wbs-section {
+ background-color: #FFF8EA;
+
+}
+
+.wbs-image {
+  width: 30%;
+  border-radius: 100%;
+}
+
+/* OCC */
+
+.occ-section {
+  text-align: center;
+  background-color: #FFD8A9;
+}
+
+.occ-text {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.occ-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+  
+}
+
+.occ-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #FDEEDC;
+}
+
+/* CDC section */
+
+.cdc-section {
+  text-align: center;
+  background-color: #FDEEDC;
+}
+
+.cdc-image {
+  width: 30%;
+  /* margin-left: 450px; */
+  padding-bottom: 3%;
+}
+
+.cdcimage {
+  width: 50%;
+}
+
+.cdc-title {
+  font-family: "lato";
+  font-size: 1.2rem;
+}
+
+/* footer */
+
+.social-icon {
+  width: 10%
+}
+
+
+/* download section */
+.download-button {
+  margin: 5% 0% 5% 0;
+}
+
+.app-section{
+  background-color: #E38B29;
+}
+
+.footer-section {
+  background-color: #FDEEDC;
+}
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
+
+.display-3 {
+  font-family: "Montserrat";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.lead{
+  font-size: 3rem;
+  font-family: "lato";
+  color:#FFF8EA;
+  
+}
