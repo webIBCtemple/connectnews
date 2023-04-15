@@ -410,12 +410,40 @@ footer {
 
 
 .main-container {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 
 }
 
 .specific-color {
   color: #fff;
+}
+
+.item {
+  flex: 1;
+  min-width: 50%;
+}
+
+/* Default styles for mobile devices */
+.text {
+  font-size: 1rem;
+}
+
+/* Styles for tablet devices */
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 1.25rem;
+  }
+}
+
+/* Styles for desktop devices */
+@media screen and (min-width: 1024px) {
+  .text {
+    font-size: 1.5rem;
+  }
 }
