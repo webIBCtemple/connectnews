@@ -159,15 +159,6 @@ nav a:hover {
 }
 
 /* Church events */
-.events-card {
-  width: 50%;
-  margin-bottom: 20px;
-  text-align: center;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
-  border-radius: 15px;
-  padding: 10px;
-  background-color: whitesmoke;
-}
 
 .church-section {
   background-color: #fff;
@@ -178,31 +169,24 @@ nav a:hover {
   border-radius: 50%;
   max-width: 90%;
   height: auto;
-  display: block;
-  margin: 150 0;
-  box-shadow: 0 0 40px rgba(17, 16, 16, 0.799);
-
+  margin: 30% 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.837);
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
 }
 
 
 @media (max-width: 767px) {
 
   .church-image {
-      margin-top: 30px;
+      /* margin-top: 30px; */
   }
 }
 
 
 /* Youth minister */
-.youth-card {
-  width: 50%;
-  margin-bottom: 20px;
-  text-align: center;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
-  border-radius: 15px;
-  padding: 10px;
-  background-color: whitesmoke;
-}
+
 
 .youth-section {
   background-color: #567189;
@@ -215,29 +199,22 @@ nav a:hover {
   border-radius: 50%;
   max-width: 90%;
   height: auto;
-  display: block;
-  margin: 150;
+  margin: 30%;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.837);
-
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
 }
 
 @media (max-width: 767px) {
 
   .youth-image {
-      margin-top: 30px;
+      /* margin-top: 30px; */
   }
 }
 
 /* Children minister */
-.children-card {
-  width: 50%;
-  margin-bottom: 20px;
-  text-align: center;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
-  border-radius: 15px;
-  padding: 10px;
-  background-color: whitesmoke;
-}
+
 
 .kid-section {
   background-color: #fff;
@@ -249,9 +226,11 @@ nav a:hover {
   border-radius: 50%;
   max-width: 90%;
   height: auto;
-  display: block;
-  margin: 200 30;
+  margin: 30% 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.837);
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
 
 }
 
@@ -259,7 +238,7 @@ nav a:hover {
 @media (max-width: 767px) {
 
   .kid-image {
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
   }
 }
 
@@ -273,11 +252,13 @@ nav a:hover {
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .card {
+  
   width: 30%;
   margin-bottom: 20px;
   text-align: center;
@@ -410,8 +391,8 @@ footer {
 
 
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -420,30 +401,12 @@ footer {
 
 }
 
-.specific-color {
-  color: #fff;
-}
-
-.item {
-  flex: 1;
-  min-width: 50%;
-}
-
-/* Default styles for mobile devices */
-.text {
-  font-size: 1rem;
-}
-
-/* Styles for tablet devices */
-@media screen and (min-width: 768px) {
-  .text {
-    font-size: 1.25rem;
-  }
-}
-
-/* Styles for desktop devices */
-@media screen and (min-width: 1024px) {
-  .text {
-    font-size: 1.5rem;
-  }
+.main-card {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.803);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: whitesmoke;
 }
